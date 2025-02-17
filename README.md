@@ -10,35 +10,6 @@ Coleta de Dados: Captura de toots com a hashtag #Python.
 Análise de Sentimentos: Classificação dos textos como positivos, negativos ou neutros.
 Visualizações: Criação de gráficos e nuvens de palavras para análise interativa dos dados.
 Como funciona?
-O sistema utiliza a API do Mastodon para buscar publicações.
-As publicações são pré-processadas (remoção de stopwords, tokenização, etc.).
-Um modelo de aprendizado de máquina classifica os textos.
-Os resultados são exibidos em um painel interativo construído com Streamlit.
-Ferramentas e Tecnologias Utilizadas
-Linguagens e Frameworks:
-
-Python: Linguagem principal para processamento e análise de dados.
-Streamlit: Framework para construção do dashboard interativo.
-Bibliotecas Principais:
-
-nltk e re: Processamento de linguagem natural e limpeza de texto.
-scikit-learn: Modelagem e treinamento de algoritmos de aprendizado de máquina.
-pandas e numpy: Manipulação e análise de dados tabulares.
-matplotlib e plotly: Visualizações gráficas.
-wordcloud: Geração de nuvens de palavras.
-
-Análise de Sentimentos no Mastodon #Python
-Um projeto que utiliza aprendizado de máquina para classificar os sentimentos de toots do Mastodon contendo a hashtag #Python. Ele apresenta os resultados por meio de um dashboard interativo, fornecendo insights sobre os dados encontrados.
-
-Visão Geral do Projeto
-Objetivo: Desenvolver uma ferramenta que analise automaticamente os sentimentos de publicações no Mastodon, permitindo explorar os resultados com visualizações interativas.
-
-O que o projeto faz?
-
-Coleta de Dados: Captura de toots com a hashtag #Python.
-Análise de Sentimentos: Classificação dos textos como positivos, negativos ou neutros.
-Visualizações: Criação de gráficos e nuvens de palavras para análise interativa dos dados.
-Como funciona?
 
 O sistema utiliza a API do Mastodon para buscar publicações.
 As publicações são pré-processadas (remoção de stopwords, tokenização, etc.).
