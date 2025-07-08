@@ -1,56 +1,57 @@
-🧠 Sentiment Analysis in Python
-A machine learning project built to classify sentiments from text data using supervised learning algorithms. This project enhances practical skills in Python, Pandas, Scikit-learn, and Natural Language Processing (NLP).
+# 💬 Sentiment Analysis System
 
-🔍 Overview
-This sentiment analysis system aims to detect whether a text expresses a positive or negative sentiment. The project leverages classical machine learning techniques and NLP preprocessing steps to build a predictive model.
+A machine learning project developed to enhance my skills in **Python**, **Natural Language Processing (NLP)**, and **Machine Learning**, while consolidating real-world data analysis practices. The system performs sentiment classification based on text input.
 
-🧰 Technologies Used
-Python: Core programming language
+---
 
-Pandas / NumPy: Data manipulation
+## 📌 Project Features
 
-Scikit-learn: Machine learning algorithms (Logistic Regression, Naive Bayes, etc.)
+### 🧠 Text Processing
+- **Clean Text**: Convert to lowercase, remove punctuation, and tokenize.
+- **Remove Stopwords**: Eliminate common non-informative words.
+- **Vectorization**: Apply TF-IDF to convert text into numerical form.
 
-NLTK / re: Text cleaning and natural language preprocessing
+### 🤖 Model Operations
+- **Train Model**: Fit Logistic Regression model to classify sentiments.
+- **Make Predictions**: Classify new text as positive or negative.
+- **Evaluate Performance**: Assess model accuracy on test dataset.
 
-Matplotlib / Seaborn: Data visualization
+---
 
-🔄 Workflow
-Data Cleaning: Remove stopwords, punctuations, and lowercase transformation
+## ⚙️ Technologies Used
 
-Text Vectorization: Using TF-IDF or CountVectorizer
+- **Language**: Python  
+- **Libraries**:  
+  - `pandas`, `numpy` – data manipulation  
+  - `scikit-learn` – ML models and evaluation  
+  - `nltk` – natural language processing  
+  - `matplotlib`, `seaborn` – data visualization  
 
-Model Training: Logistic Regression and Naive Bayes
+---
 
-Evaluation: Accuracy, precision, recall, F1-score
+## 🧩 Main Functionalities
 
-Prediction: Real-time sentiment prediction from new texts
+- ✅ Clean and process raw text data  
+- ✅ Train and test sentiment classifier  
+- ✅ Generate predictions on new inputs  
+- ✅ Accuracy evaluation and insights  
+- ✅ Simple and extensible architecture  
 
-📈 Results
-The final model achieved an accuracy of XX% (substitua pelo valor real) and showed strong performance on both training and testing sets. The confusion matrix and classification report indicate the model generalizes well.
+---
 
-📊 Visualizations
-[Aqui você pode colocar gráficos ou imagens do projeto, como matriz de confusão, curva ROC, etc.]
+<h3>📷 Badge</h3>
 
-🚀 How to Run
-bash
-Copiar
-Editar
-# Clone the repo
-git clone https://github.com/ricardohenrique1609/Analise-sentimentos.git
-cd Analise-sentimentos
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ricardohenrique1609/Analise-sentimentos/main/badge_sentiment.png" alt="Sentiment Analysis Badge" width="300"/>
+</p>
 
-# Install requirements
-pip install -r requirements.txt
+---
 
-# Run the notebook or script
-python main.py
-📷 Badge
+## 👨‍💻 Author
 
+**Ricardo Henrique Ramos Silva**  
+[LinkedIn](https://linkedin.com/in/ricardo-henrique-28939b275) | [Portfolio](https://curriculoricardo.netlify.app/)
 
-👨‍💻 Author
-Ricardo Henrique Ramos Silva
-LinkedIn | Portfolio
+---
 
-⭐️ If you found this project useful or inspiring, consider giving it a star!
-
+⭐️ Don’t forget to leave a star if you liked it!
