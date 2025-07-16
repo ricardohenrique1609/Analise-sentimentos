@@ -39,11 +39,12 @@ A machine learning project developed to enhance my skills in **Python**, **Natur
 
 ---
 
-<h3>📷 Badge</h3>
+### 📷 Badge
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/ricardohenrique1609/Analise-sentimentos/main/badge_sentiment.png" alt="Sentiment Analysis Badge" width="300"/>
+  <img src="https://raw.githubusercontent.com/ricardohenrique1609/Analise-sentimentos/main/imagens/badge_sentiment.png" alt="Sentiment Analysis Badge" width="300"/>
 </p>
+
 
 ---
 
